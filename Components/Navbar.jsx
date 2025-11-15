@@ -15,7 +15,7 @@ const Navbar = () => {
       </ul>
 
       <div className="font-poppins text-3xl font-bold">
-        <button className="cursor-pointer text-[#245abf]">Resume</button>
+        <a href="#about" className="cursor-pointer text-[#245abf]">Resume</a>
       </div>
     </div>
   );
