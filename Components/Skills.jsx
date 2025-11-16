@@ -93,7 +93,7 @@ const SkillCard = ({ name, color, iconUrl }) => {
         src={iconUrl} 
         alt={`${name} logo`} 
         className="w-10 h-10 mb-2 object-contain"
-        // Optional: Add a subtle border matching the color
+      
         style={{ borderRadius: '50%', border: `2px solid ${colors.border.replace('border-', '#').replace('-500', '')}` }}
       />
       
@@ -106,12 +106,13 @@ const SkillCard = ({ name, color, iconUrl }) => {
 // --- Main Skills Component ---
 const Skills = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 font-sans">
+    
+    <div id="skills" className="min-h-screen pt-30 bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-6xl mx-auto">
         
         {/* Main Title and Description */}
         <header className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-4xl sm:text-5xl text-[#245abf] font-extrabold  mb-4 tracking-tight">
             Skills
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -147,6 +148,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+   
   );
 };
 
