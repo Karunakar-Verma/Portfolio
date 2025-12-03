@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import utu from "../src/assets/utu.png";
 import mern from "../src/assets/mern.png";
-import application from "../src/assets/application.png";
+// import application from "../src/assets/application.png";
+import euronone_logo from "../src/assets/euronone_logo.jpeg";
+import advan from "../src/assets/advan.jpeg"
 
 const experiences = [
   {
@@ -17,7 +19,15 @@ const experiences = [
     date: "April 2025 - May 2025",
     description:
       "Assisted the engineering team with technical documentation and testing data for industrial solutions.",
-    image: application,
+    image: advan,
+  },
+    {
+    title: "Backend Developer Intern",
+    company: " Euron (Engagesphere Technology Pvt. Ltd.)",
+    date: "November 2025 ",
+    description:
+      "Built production-grade RESTful APIs for SafeServe using Node.js, Express.js, MySQL, JWT, and Multer, delivering menu management, order processing, role-based authorization, input validation, custom error handling, optimized queries, Postman test collections, and complete API documentation aligned with PRD/HLD/LLD..",
+    image: euronone_logo,
   },
   {
     title: "B Tech (CSE)",

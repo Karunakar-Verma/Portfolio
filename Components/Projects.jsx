@@ -9,6 +9,14 @@ const projects = [
       "Built a full-stack e-commerce platform with product listings, shopping cart, and secure checkout. Managed global state using Redux Toolkit and integrated Stripe API for payments with protected JWT routes.",
     github: "https://github.com/Karunakar-Verma/newAmazon_Clone",
   },
+   {
+    name: "“SafeServe” (Restaurant Order & Menu system)",
+    tech: "MySQL , Node.js, Multer, Express.js, JWT ",
+    date: "11/2025 - 11/2025",
+    description:
+      "Built production-grade RESTful APIs for SafeServe using Node.js, Express.js, MySQL, JWT, and Multer, delivering menu management, order processing, role-based authorization, input validation, custom error handling, optimized queries, Postman test collections, and complete API documentation aligned with PRD/HLD/LLD.",
+    github: "https://github.com/Karunakar-Verma/SafeServe---Restaurant-Order-and-Menu-API",
+  },
   {
     name: "Courseluto - Online Learning Platform",
     tech: "MERN Stack, Tailwind CSS, JWT, Cloudinary, Razorpay",
@@ -16,6 +24,14 @@ const projects = [
     description:
       "Developed a Udemy-style platform with course registration, video uploads, and enrollments. Implemented JWT authentication, Cloudinary storage, admin dashboards, and Razorpay integration.",
     github: "https://github.com/Karunakar-Verma/CourseLuto.Com",
+  },
+    {
+    name: "Console-based AI Chatbot",
+    tech: "C#, OOPS",
+    date: "01/2025 - 02/2025",
+    description:
+      "Developed a console-based AI chatbot in C# using OOP principles (encapsulation, inheritance, polymorphism, abstraction) with separate User, Bot, and Message classes, featuring dynamic conversation handling, a learnable runtime knowledge base, and a scalable, maintainable clean-code architecture.",
+    github: "https://github.com/Karunakar-Verma/LMS_OOPS_C-",
   },
   {
     name: "YouTube Clone - Video Streaming Application",
